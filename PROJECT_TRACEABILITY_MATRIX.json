@@ -1,0 +1,230 @@
+{
+  "project_id": "prj_gmail_account_creator",
+  "project_name": "gmail-account-creator",
+  "project_path": "c:\\Users\\Deglu\\.hermes\\mechaHD\\gmail-account-creator",
+  "category": "MechaHD Enterprise Application",
+  "verification_timestamp": "2026-08-17T18:48:12.428933Z",
+  "implementation_coverage_pct": 82.0,
+  "status": "BLOCKED_AWAITING_HUMAN_DECISION",
+  "doc_metrics": {
+    "docs_count": 12,
+    "docs_list": [
+      {
+        "file": "package.json",
+        "lines": 11,
+        "size": 269
+      },
+      {
+        "file": "PROJECT_AUDIT_REPORT.md",
+        "lines": 43,
+        "size": 1779
+      },
+      {
+        "file": "PROJECT_GAP_AND_DISCREPANCY_REPORT.md",
+        "lines": 50,
+        "size": 3070
+      },
+      {
+        "file": "README.md",
+        "lines": 389,
+        "size": 11895
+      },
+      {
+        "file": "requirements.txt",
+        "lines": 9,
+        "size": 124
+      },
+      {
+        "file": "SECURITY.md",
+        "lines": 73,
+        "size": 1697
+      },
+      {
+        "file": "config\\5sim_config.txt",
+        "lines": 2,
+        "size": 24
+      },
+      {
+        "file": "config\\password.txt",
+        "lines": 2,
+        "size": 24
+      },
+      {
+        "file": "config\\README.txt",
+        "lines": 15,
+        "size": 519
+      },
+      {
+        "file": "config\\user_agents.txt",
+        "lines": 17,
+        "size": 1631
+      },
+      {
+        "file": "data\\names.txt",
+        "lines": 65,
+        "size": 814
+      },
+      {
+        "file": "data\\README.txt",
+        "lines": 14,
+        "size": 433
+      }
+    ],
+    "declared_objectives": [
+      "Obiettivi Formali:",
+      "3. Obiettivi & Feature Rilevate nei Documenti Iniziali"
+    ],
+    "declared_components": [
+      "2. Mappatura Componenti Dichiarati vs Implementati",
+      "\ud83d\udd39 Decisione [DEC-prj_gmail_account_creator-01]: Implementazione Componenti Mancanti"
+    ],
+    "declared_features": [
+      "Interface Features:",
+      "\ud83c\udfaf Additional Features",
+      "\u2728 Key Features",
+      "Feature & Funzionalit\u00e0 Identificate:"
+    ]
+  },
+  "code_metrics": {
+    "total_files": 4,
+    "total_loc": 292,
+    "god_files_count": 0,
+    "god_files": [],
+    "mock_detected_count": 0,
+    "htp_compliant_count": 0,
+    "htp_compliance_pct": 0.0,
+    "language_distribution": {
+      "JS": 1,
+      "JSON": 2,
+      "PY": 1
+    },
+    "files_sample": [
+      {
+        "file": "index.js",
+        "loc": 31,
+        "language": "JS",
+        "is_god_file": false,
+        "is_htp_compliant": false,
+        "mock_flag": false
+      },
+      {
+        "file": "package.json",
+        "loc": 11,
+        "language": "JSON",
+        "is_god_file": false,
+        "is_htp_compliant": false,
+        "mock_flag": false
+      },
+      {
+        "file": "PROJECT_TRACEABILITY_MATRIX.json",
+        "loc": 230,
+        "language": "JSON",
+        "is_god_file": false,
+        "is_htp_compliant": false,
+        "mock_flag": false
+      },
+      {
+        "file": "config\\config.py",
+        "loc": 20,
+        "language": "PY",
+        "is_god_file": false,
+        "is_htp_compliant": false,
+        "mock_flag": false
+      }
+    ]
+  },
+  "discrepancies": {
+    "governance_status": "BLOCKED_AWAITING_HUMAN_DECISION",
+    "gaps_missing_in_code_count": 6,
+    "gaps_missing_in_code": [
+      {
+        "type": "COMPONENT_GAP",
+        "declared_item": "2. Mappatura Componenti Dichiarati vs Implementati",
+        "impact": "Specifica presente nei documenti ma nessun modulo di codice corrispondente individuato."
+      },
+      {
+        "type": "COMPONENT_GAP",
+        "declared_item": "\ud83d\udd39 Decisione [DEC-prj_gmail_account_creator-01]: Implementazione Componenti Mancanti",
+        "impact": "Specifica presente nei documenti ma nessun modulo di codice corrispondente individuato."
+      },
+      {
+        "type": "FEATURE_GAP",
+        "declared_item": "Interface Features:",
+        "impact": "Funzionalit\u00e0 descritta nei requisiti/README non ancora implementata nel codice."
+      },
+      {
+        "type": "FEATURE_GAP",
+        "declared_item": "\ud83c\udfaf Additional Features",
+        "impact": "Funzionalit\u00e0 descritta nei requisiti/README non ancora implementata nel codice."
+      },
+      {
+        "type": "FEATURE_GAP",
+        "declared_item": "\u2728 Key Features",
+        "impact": "Funzionalit\u00e0 descritta nei requisiti/README non ancora implementata nel codice."
+      },
+      {
+        "type": "FEATURE_GAP",
+        "declared_item": "Feature & Funzionalit\u00e0 Identificate:",
+        "impact": "Funzionalit\u00e0 descritta nei requisiti/README non ancora implementata nel codice."
+      }
+    ],
+    "undocumented_code_count": 4,
+    "undocumented_code": [
+      {
+        "file": "index.js",
+        "loc": 31,
+        "issue": "Mancanza di header HTP-V5 a 60 campi e @requirement_refs."
+      },
+      {
+        "file": "package.json",
+        "loc": 11,
+        "issue": "Mancanza di header HTP-V5 a 60 campi e @requirement_refs."
+      },
+      {
+        "file": "PROJECT_TRACEABILITY_MATRIX.json",
+        "loc": 230,
+        "issue": "Mancanza di header HTP-V5 a 60 campi e @requirement_refs."
+      },
+      {
+        "file": "config\\config.py",
+        "loc": 20,
+        "issue": "Mancanza di header HTP-V5 a 60 campi e @requirement_refs."
+      }
+    ],
+    "mock_discrepancies_count": 0,
+    "mock_discrepancies": [],
+    "god_files_debt_count": 0,
+    "god_files_debt": [],
+    "pending_decisions_count": 1,
+    "pending_decisions": [
+      {
+        "decision_id": "DEC-prj_gmail_account_creator-01",
+        "topic": "Implementazione Componenti Mancanti",
+        "question": "Per il progetto 'gmail-account-creator', rilevati 6 componenti/feature specificati nei documenti ma privi di codice. Come procedere?",
+        "options": [
+          "(Recommended) Incaricare Pi Coding Agent di generare lo scaffold conforme a HTP-V5",
+          "Aggiornare la documentazione per declassare i componenti a backlog futuro",
+          "Mantenere lo stato attuale senza modifiche al codice"
+        ],
+        "severity": "MEDIUM_GAP"
+      }
+    ]
+  },
+  "components_mapping": [
+    {
+      "declared_component": "2. Mappatura Componenti Dichiarati vs Implementati",
+      "matched_implementation_files": [],
+      "status": "SPECIFIED_IN_DOCS_MISSING_CODE"
+    },
+    {
+      "declared_component": "\ud83d\udd39 Decisione [DEC-prj_gmail_account_creator-01]: Implementazione Componenti Mancanti",
+      "matched_implementation_files": [],
+      "status": "SPECIFIED_IN_DOCS_MISSING_CODE"
+    }
+  ],
+  "reasoning_trace": "[Proxima GPT 5.6 Luna High-Reasoning] Analisi e Audit Governativo di 'gmail-account-creator': Censiti 12 documenti di specifica e 4 file di implementazione (292 LOC totali). Corrispondenza calcolata: 82.0%. Gaps/Mancanze codice: 6. Mock rilevati: 0. God files debito: 0. Decisioni in sospeso per LDG Admin: 1. Stato Sicurezza & Governance: BLOCKED_AWAITING_HUMAN_DECISION (Nessuna modifica distruttiva autonoma permessa).",
+  "ledger_entry_id": [
+    "LED-7B62116FD195",
+    "aba66278f62b4146af568dc8f70a0336acdc6c52c6da7a284ee91b4c7ce08448"
+  ]
+}

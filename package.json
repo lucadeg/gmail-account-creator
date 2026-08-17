@@ -1,0 +1,11 @@
+{
+  "name": "gmail-creator-wrapper",
+  "version": "1.0.0",
+  "description": "Safe wrapper to launch Gmail Creator Pro on Windows bypass SmartScreen",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Antigravity",
+  "license": "ISC"
+}

@@ -1,0 +1,83 @@
+# ==============================================================================
+# SECRETS & CREDENTIALS (ABSOLUTE BLOCK)
+# ==============================================================================
+*.env
+*.env.*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*client_secret*.json
+*credentials*.json
+*service_account*.json
+*_sa.json
+*token*.json
+accounts.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+secrets/
+private/
+
+# ==============================================================================
+# RUNTIME DATA & HEAVY DATASETS (DB SCHEMAS ARE ALLOWED)
+# ==============================================================================
+data/
+**/data/
+*_data/
+dataset/
+datasets/
+backups/
+artifacts/
+gdrive_staging/
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.csv
+*.tsv
+
+# ALLOW DATABASE SCHEMAS & MIGRATIONS
+!*.prisma
+!schema.prisma
+!migrations/
+!*.sql
+
+# ==============================================================================
+# DEPENDENCIES & BUILD ARTIFACTS
+# ==============================================================================
+node_modules/
+.next/
+dist/
+build/
+out/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+venv_old/
+.pytest_cache/
+.coverage
+.cache
+
+# ==============================================================================
+# LOGS & TEMPORARY FILES
+# ==============================================================================
+logs/
+*.log
+*.log.*
+*.tmp
+*.temp
+scratch/
+temp/
+tmp/
+Thumbs.db
+.DS_Store
