@@ -1,5 +1,9 @@
 # 🚀 Gmail Creator Pro - The Ultimate Gmail Account Creator
-
+<a href="https://buymeacoffee.com/tareqshadow" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+       alt="Buy Me a Coffee"
+       style="height: 45px !important;width: 162px !important;">
+</a>
 <div align="center">
 
 ![Gmail Creator Pro](https://img.shields.io/badge/Version-2.0.0-blue.svg)
